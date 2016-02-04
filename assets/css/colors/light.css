@@ -37,6 +37,14 @@ body {
     background-color: #fff;
 }
 
+/* PROFILE SECTION LIGHT STYLES 
+---------------------------------------*/
+
+#profile .pp-wrapper .profile-picture.style-two .title {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
 /* SKILLS SECTION LIGHT STYLES 
 ---------------------------------------*/
 span.resume-year {
@@ -107,4 +115,8 @@ footer.footer ul.social-icons > li > .item a {
 footer.footer ul.social-icons > li > .item {
 	background-color: #fff;
 	box-shadow: 0 3px 0 #f1f1f1;
+}
+
+footer.footer ul.social-icons>li>.item>a:hover {
+    color: #333;
 }

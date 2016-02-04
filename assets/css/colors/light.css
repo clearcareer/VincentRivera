@@ -33,7 +33,7 @@ body {
     color: #171717;
 }
 
-.navbar.navbar-fixed-top .navbar-nav > li.active > a:hover {
+.navbar.navbar-fixed-top .navbar-nav > li.active > a:hover, .navbar.navbar-fixed-top .navbar-nav > li > a:focus {
     background-color: #fff;
 }
 

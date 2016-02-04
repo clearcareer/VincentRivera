@@ -1,7 +1,7 @@
 ---
 layout: default
-page_template_color: red
-light_or_dark: dark
+page_template_color: green
+light_or_dark: light
 navbar_brand: John
 full_name: John Smith
 email: example@example.com
@@ -22,69 +22,68 @@ goals:
   - name: Inspire
     icon: group
     description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
-education: 
-    - number: 1
-      years: 2012-2014
-      degree: Bachelor of Arts
-      institution: University of Mars
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    - number: 2
-      years: 2042-2022
-      degree: Master of Arts
-      institution: University of Neptune
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-work_experience: 
-    - number: 1
-      years: 2012-2014
-      position: Senior Designer
-      company: Company A
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    - number: 2
-      years: 2014-2016
-      position: Engineer
-      company: Company B
-      description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+education:
+  - number: 1
+    years: 2012-2014
+    degree: Bachelor of Arts
+    institution: University of Mars
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+  - number: 2
+    years: 2042-2022
+    degree: Master of Arts
+    institution: University of Neptune
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+work_experience:
+  - number: 1
+    years: 2012-2014
+    position: Senior Designer
+    company: Company A
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+  - number: 2
+    years: 2014-2016
+    position: Engineer
+    company: Company B
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
 categories:
-    - name: Art
-    - name: Photography
-    - name: Graphics
-    - name: 3D
+  - name: Art
+  - name: Photography
+  - name: Graphics
+  - name: 3D
 skills:
-    - name: Javascript
-      level: 20
-    - name: HTML/CSS
-      level: 47
-    - name: Digital Marketing
-      level: 65
-    - name: Graphic Design
-      level: 90
-
+  - name: Javascript
+    level: 20
+  - name: HTML/CSS
+    level: 47
+  - name: Digital Marketing
+    level: 65
+  - name: Graphic Design
+    level: 90
 achievements:
-    - name: Expertise Award
-      description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
-      icon: trophy
-    - name: Travel Award
-      description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
-      icon: plane
-    - name: Star Award
-      description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
-      icon: star
-    - name: Instagram Photographer
-      description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
-      icon: instagram
+  - name: Expertise Award
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
+    icon: trophy
+  - name: Travel Award
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
+    icon: plane
+  - name: Star Award
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
+    icon: star
+  - name: Instagram Photographer
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
+    icon: instagram
 social_icons:
-    - name: Facebook
-      link: #
-      icon: facebook
-    - name: Twitter
-      link: #
-      icon: twitter
-    - name: Instagram
-      link: #
-      icon: instagram
-    - name: Github
-      link: #
-      icon: github
+  - name: Facebook
+    link: ''
+    icon: facebook
+  - name: Twitter
+    link: ''
+    icon: twitter
+  - name: Instagram
+    link: ''
+    icon: instagram
+  - name: Github
+    link: ''
+    icon: github
 ---
 
 
@@ -184,7 +183,7 @@ social_icons:
                     <!-- PROFILE PICTURE START -->
                     <div class="col-md-4 hidden-xs hidden-sm match-height pp-wrapper">
                         <div class="profile-picture style-two">
-                            <img src="{{ page.profilepic_path }}" alt="profile picture" class="img-responsive"/>
+                            <img src="{{ page.profilepic_path }}" alt="profile picture" class="img-responsive" />
                             
                             <h4 class="title editable">Graphic Designer</h4>
                         </div>
@@ -290,8 +289,8 @@ social_icons:
                                 <p class="text-center">
                                     <i class="fa fa-{{ goal.icon }} fa-3x colored-text"></i>
                                 
-                                    <h4 class="text-center">{{ goal.name }}</h4>
-                                </p>
+                                    </p><h4 class="text-center">{{ goal.name }}</h4>
+                                <p></p>
                             
                                 <p>
                                     {{ goal.description }}
@@ -518,7 +517,7 @@ social_icons:
                                 </div>
                                 <!-- //.project-title -->
 
-                                <img src="{{ item.image }}" alt="{{ item.name }}" class="img-responsive"/>
+                                <img src="{{ item.image }}" alt="{{ item.name }}" class="img-responsive" />
                             </div>
                             <!-- //.project-wrapper -->
                         </div>

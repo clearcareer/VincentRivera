@@ -1075,9 +1075,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 /*---------------------------------------------------------------------*/
 /*  6.1. SECTION - PROFILE
 /*---------------------------------------------------------------------*/
-#profile {
-  background-color: #0d0c0d;
-}
+
 
 @media (min-width: 992px) {
   #profile .section-wrapper > .section-content {
@@ -1235,7 +1233,6 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 #portfolio {
   position: relative;
   z-index: 5;
-  background-color: #171717;
 }
 
 #portfolio .section-wrapper > .section-content {
@@ -1456,9 +1453,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.3. SECTION - SERVICES
 /*---------------------------------------------------------------------*/
-#services {
-  background-color: #0d0c0d;
-}
+
 
 @media (min-width: 768px) {
   .services {
@@ -1782,9 +1777,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.5. SECTION - RESUME
 /*---------------------------------------------------------------------*/
-#resume {
-  background-color: #171717;
-}
+
 
 #resume h3 {
   text-align: center;
@@ -2141,9 +2134,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.7. SECTION - SKILLS
 /*---------------------------------------------------------------------*/
-#skills {
-  background-color: #0d0c0d;
-}
+
 
 #skills .section-wrapper > .section-content {
   padding-bottom: 0px;
@@ -2231,9 +2222,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.8. SECTION - KNOWLEDGE
 /*---------------------------------------------------------------------*/
-#knowledge {
-  background-color: #0d0c0d;
-}
+
 
 #knowledge .section-wrapper > .section-content {
   padding-top: 0px;
@@ -2308,9 +2297,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.9. SECTION - ACCOLADES
 /*---------------------------------------------------------------------*/
-#accolades {
-  background-color: #0d0c0d;
-}
+
 
 #accolades .section-wrapper > .section-content {
   padding-top: 0px;
@@ -2456,9 +2443,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.11. SECTION - WORK PROCESS
 /*---------------------------------------------------------------------*/
-#work-process {
-  background-color: #171717;
-}
+
 
 @media (max-width: 767px) {
   #work-process .text-justify {
@@ -2701,9 +2686,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.12. SECTION - CONTACT
 /*---------------------------------------------------------------------*/
-#contact {
-  background-color: #0d0c0d;
-}
+
 
 
 /*---------------------------------------------------------------------*/
@@ -2867,9 +2850,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 /*  6.13. SECTION - BLOG
 /*---------------------------------------------------------------------*/
-#blog {
-  background-color: #0d0c0d;
-}
+
 
 #blog .launch {
   margin-top: 50px;
@@ -2967,7 +2948,6 @@ button.mfp-arrow:active {
 /*  8. FOOTER
 /*---------------------------------------------------------------------*/
 footer.footer {
-  background-color: #171717;
   padding-top: 70px;
   padding-bottom: 50px;
 }

@@ -1,5 +1,6 @@
 ---
-name: Beautiful Lamb
-image: assets/images/portfolio/project-image-1.jpg
-link: http://www.beautifullamb.ca
+name: Astronaut
+image: /assets/images/astronaut.jpg
+link: 'http://www.beautifullamb.ca'
 ---
+

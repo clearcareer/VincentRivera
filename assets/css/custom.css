@@ -15,3 +15,11 @@ header.hero .hero-body .hero-text h1 {
 #resume, footer.footer {
 	background-color: #0d0c0d;
 }
+
+
+
+.portfolio .item > .project-wrapper:hover > .project-link > a.external-link {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
